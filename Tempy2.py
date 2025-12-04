@@ -11,7 +11,7 @@ def user_input_features():
   # Entrada
   Ciudad = st.number_input('Ciudad (Acapulco=0, Acuña=1, Aguascalientes=2):',  min_value=0, max_value=2, value = 0)
   Año = st.number_input('Año', min_value=0, max_value=2020, value = 0)
-  Mes = st.number_input('Mes', min_value=1, max_value=12, value = 0)
+  Mes = st.number_input('Mes', min_value=1, max_value=12, value = 1)
   
 
 
